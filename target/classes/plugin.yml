@@ -1,0 +1,20 @@
+name: CobbleDistrict
+version: 1.0
+main: com.cobbleworks.CobbleDistrict
+api-version: 1.21
+commands:
+  setdistrict:
+    description: Sets the district location.
+    usage: /setdistrict
+    permission: district.set
+  district:
+    description: Teleports to the shop district.
+    usage: /district
+    permission: district.tp
+permissions:
+  cobbledistrict.set:
+    description: Allows setting the district location.
+    default: op
+  cobbledistrict.tp:
+    description: Allows teleporting to the district.
+    default: true
