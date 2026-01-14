@@ -11,7 +11,3 @@ Simple PaperMC plugin for 1.21 that adds:
 ## Build
 ```bash
 mvn clean package
-
-## Init
-Install the latest release in the [releases](https://github.com/kebabmario/CobbleDistrict)
-Bring the .jar file into the plugins folder of your Minecraft server.
